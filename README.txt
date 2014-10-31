@@ -5,7 +5,6 @@ To add the repo:
 sudo ./add_google_earth_repo.sh
 
 To install the package:
-
 sudo ./install
 
 To remove Google Earth:
