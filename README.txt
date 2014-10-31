@@ -1,8 +1,15 @@
-You must run the script as root!
-For example: sudo ./<script>
+To get this git:
+git clone https://github.com/steppy345/google-earth.git
 
-Currently to remove the repository from your repository list you must remove it manually.
+To add the repo:
+sudo ./add_google_earth_repo.sh
 
-To remove:
+To install the package:
 
+sudo ./install
+
+To remove Google Earth:
+sudo ./uninstall
+
+To remove the Repo:
 edit your /etc/apt/sources.list file and remove the entry
